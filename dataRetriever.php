@@ -8,7 +8,7 @@ class TwelveHourWeatherForecast{
 
     function __construct(){
 
-        $this->apiURL = "http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/126312?apikey=kGsl2UH2ybcfQqsVRbAZ15krAh19wq1K&language=da-dk&details=true&metric=true";
+        $this->apiURL = "http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/126312?apikey=YOURAPIKEY&language=da-dk&details=true&metric=true";
         $db = new db();
         $this->conn = $db->connect();
 
